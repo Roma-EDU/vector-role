@@ -1,7 +1,7 @@
 Vector
 =========
 
-Ansible роль для установки [Vector](https://vector.dev)
+Учебная Ansible роль для установки [Vector](https://vector.dev)
 
 Requirements
 ------------
