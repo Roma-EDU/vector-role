@@ -1,7 +1,7 @@
 Vector
 =========
 
-Ansible роль для установки Vector
+Ansible роль для установки [Vector](https://vector.dev)
 
 Requirements
 ------------
@@ -12,7 +12,8 @@ Role Variables
 --------------
 
 | Переменная | Тип | Значение по умоланию | Комментарий |
-| vector_version | Строка | "0.21.1" | Номер версии vector |
+| --- | --- | --- | --- |
+| `vector_version` | Строка | 0.21.1 | Номер версии vector |
 
 Dependencies
 ------------
@@ -22,10 +23,12 @@ Dependencies
 Example Playbook
 ----------------
 
+```yml
 - name: Install Vector
   hosts: vector
   roles:
     - vector
+```
 
 License
 -------
