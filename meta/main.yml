@@ -1,7 +1,8 @@
 galaxy_info:
-  author: Roma-EDU
+  author: roma_edu
+  role_name: vector
   description: Role for installation Vector 
-  company: devops-netology
+  company: devops_netology
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value

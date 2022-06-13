@@ -7,4 +7,4 @@
 - name: Vector | Install deb-packages
   become: true
   ansible.builtin.apt:
-    name: "vector-{{ vector_version }}.deb"
+    deb: "vector-{{ vector_version }}.deb"
